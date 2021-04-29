@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27AAE1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/signup_login_bg"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="429dp"
+        android:layout_gravity="center"
+        android:background="@drawable/signup_frame"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <EditText
+            android:id="@+id/signup_nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/signup_schoolEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/school_college_university" />
+
+        <EditText
+            android:id="@+id/signup_emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signup_passEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="numberPassword" />
+
+
+        <Spinner
+            android:id="@+id/signup_studentTypeSpn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/student_type"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/signup_passForUserEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Class password"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signup_btn"
+            android:onClick="signUpClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:onClick="alreadyAccountClick"
+            android:text="@string/already_have_account_sign_in"
+            android:textColor="#ff0000" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/signupProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

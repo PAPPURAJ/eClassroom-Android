@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/single_class_recy_timeAndDurationTv"
+        android:layout_width="110dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="match_parent"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:text="9:00PM-1 hour"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#BC131B4A"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/single_class_recy_subTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="Data Structure" />
+
+                <TextView
+                    android:id="@+id/single_class_recy_teacherTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="AbduL Rouf" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/separate"/>
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/single_class_recy_joinClassTv"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:text="Join Class"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

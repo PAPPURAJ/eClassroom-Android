@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149144829612",
+    "firebase_url": "https://eclassroom-d2005.firebaseio.com",
+    "project_id": "eclassroom-d2005",
+    "storage_bucket": "eclassroom-d2005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149144829612:android:97a66aae6e22432825e909",
+        "android_client_info": {
+          "package_name": "com.blogspot.rajbtc.onlineclass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149144829612-h9r3ogjhcd57gr2mr45tjc940adgr8ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfc6u91emI9J6R0rsinWXVruazOPdvD98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149144829612-h9r3ogjhcd57gr2mr45tjc940adgr8ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

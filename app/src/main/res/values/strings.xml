@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">eClassroom</string>
+    <string name="title_activity_routine">RoutineActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="already_have_account_sign_in">Already have account? Sign in</string>
+    <string name="school_college_university">School/College/University</string>
+    <string name="run_in_background">Run in background</string>
+
+    <string-array name="student_type">
+
+        <item>User</item>
+        <item>Admin</item>
+
+    </string-array>
+
+    <string-array name="day">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+</resources>
